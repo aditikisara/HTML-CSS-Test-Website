@@ -1,0 +1,109 @@
+<!-- This is the home page of the website. It shows the following elements:
+    - Logo on top right
+        -> Will take user to homepage when clicked
+    - Business name
+        -> Next to logo on the LHS of the page
+    - Site menu
+        -> Every word will take the user to another page.
+            -> Home
+            -> Plants
+            -> Tips
+            -> Food
+    - Title
+        -> This is the business name centered on the page in big font
+    - Gallery
+        -> Picture slideshow
+    - Services
+        -> Each picture will take you to the correspondnig page.
+            -> Plants
+            -> Tips
+            -> Food
+    - Footnotes
+        -> This is where users can find the email and the copyright note.
+        -> This section will be on all pages.
+-->
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style_home.css">
+    <title>RuRu Garden - Home</title>
+</head>
+
+<body style="background-color: lightseagreen;">
+
+    <!--Header-->
+
+    <!--Left-->
+    <a href= "home.html">
+        <img src="images/Logo_wo_name.png" class= "logoIcon">
+    </a>
+    <span class= "headerWords">RURU GARDEN</span>
+
+    <!--Right-->
+    <span class= "headerWords rContainer" style= "margin-left: 20px;">
+        <a href= "citations.html" style= "text-decoration: none; color: black">CITATIONS</a></span>
+    <span class= "headerWords rContainer" style= "margin-left: 20px;">
+        <a href= "tips.html" style= "text-decoration: none; color: black">TIPS</a></span>
+    <span class= "headerWords rContainer" style= "margin-left: 20px;">
+        <a href= "plants.html" style= "text-decoration: none; color: black">PLANTS</a></span>
+    <span class= "headerWords rContainer" style= "margin-left: 20px;">
+        <a href= "home.html" style= "text-decoration: none; color: black">HOME</a></span>
+
+    <br><br>
+    <hr>
+
+    <!--Start of Page-->
+    <div class= "mainImgContainer">
+        <img src= "images/plants/mainImg.jpeg" class= "mainImg">
+        <div class= "title">
+            <h1 style= "font-weight: lighter;">RURU GARDEN</h1>
+            <!-- <p>Established 2021</p> -->
+        </div>
+    </div>
+
+    <br><br>
+
+    <div>
+        <h2>WHO ARE WE?</h2>
+        <p style="text-align: center; margin-left: 20%; margin-right: 20%;">
+            At RuRu Garden, we strive to promote an easy guide to taking care of any plants we have available. Plants are an easy 
+            way to bring life to your home and can offer a more therapeutic environment. Different plants require different care 
+            instructions, and we do our best to making plant selection and accessing care instructions an easier process.
+        </p>
+    </div>
+
+    <br><br>
+
+    <div class= "row">
+
+        <div class= "col">
+            <a href= "plants.html">
+                <img src= "images/plants/plant.jpeg" class= "siteOptions">
+            </a>
+            <h3>PLANTS</h3>
+            <p style="text-align: center">
+                Browse through our collection of plants! We offer a variety of plants that are aesthetic and beneficial to every day
+                living.
+            </p>
+        </div>
+
+        <div class= "col">
+            <a href= "tips.html">
+                <img src= "images/plants/tips.jpeg" class= "siteOptions">
+            </a>
+            <h3>TIPS</h3>
+            <p style="text-align: center">Here's a guide to take care of each plant! Each plant requires a separate set of care 
+                instructions, and we make it simple with our easy guide.</p>
+        </div>
+
+    </div>
+
+    <!--Footer-->
+    <hr>
+    <div>
+        <h3>Have questions? Contact us!</h3>
+        <p style= "text-align: center;">rurusfood@gmail.com</p>
+        <br><br>
+        <p style= "text-align: center;">@2021 Copyright</p>
+    </div>
+</body>

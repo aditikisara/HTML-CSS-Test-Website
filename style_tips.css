@@ -1,0 +1,74 @@
+body {
+    background-color: lightseagreen;
+}
+.headerWords {
+    padding: 1%;
+    line-height: 3em;
+    font-size: small;
+    font-weight: lighter;
+}
+.logoIcon {
+    float:left;
+    width: 40px;
+    height: 40px;
+}
+.rContainer {
+    float: right;
+    width: auto;
+    height: 100%; 
+    line-height: 2em;
+}
+.mainImgContainer {
+    position: relative;
+    text-align: center;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    font-size: xx-large;
+}
+.mainImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+*{
+    box-sizing: border-box;
+}
+.col {
+    float: left;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left {
+    width: 30%;
+    padding: 10px;
+}
+.right {
+    width: 70%;
+    padding: 50px;
+}
+.imgFit {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+h3 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+}
+@media screen and (max-width: 600px) {
+    .left, .right {
+        width: 100%;
+        border: darkslategray;
+    }
+}
